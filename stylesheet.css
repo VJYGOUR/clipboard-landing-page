@@ -1,0 +1,387 @@
+* {
+  box-sizing: inherit;
+}
+p {
+  line-height: 1.4rem;
+  letter-spacing: 0.05rem;
+}
+.btn-1 {
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem hsl(171, 66%, 44%);
+}
+.btn-2 {
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem hsl(233, 100%, 69%);
+}
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+p,
+.span {
+  color: hsl(201, 11%, 66%);
+}
+footer p {
+  color: hsl(210, 10%, 33%);
+}
+footer {
+  background-color: hsla(202, 11%, 66%, 0.105);
+}
+@media (min-width: 900px) {
+  .container {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 100vw;
+  }
+  .logo-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .history {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .history-h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 60%;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .history-p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-weight: 400;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 7rem;
+  }
+  .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  }
+  .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .second-heading {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .second-heading-heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .second-heading-para {
+    font-size: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57%;
+  }
+  .desktop {
+    display: flex;
+    gap: 7%;
+    margin-bottom: 10%;
+  }
+  .desktop-img {
+    width: 80%;
+  }
+  .d-img {
+    margin: 0;
+    object-fit: cover;
+    width: 100%;
+    transform: translateX(-2rem);
+  }
+  .desktop-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+  }
+  .d {
+    margin: 0;
+    width: 65%;
+    margin-bottom: 1.5rem;
+  }
+  .h3 {
+    margin-bottom: 0.4rem;
+  }
+  .span {
+    font-size: 0.8rem;
+  }
+
+  .quick {
+    margin-top: 1.5rem;
+  }
+  .main {
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  .main-h {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .main-p {
+    font-size: 0.9rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .device-img {
+    text-align: center;
+  }
+  .img-d {
+    object-fit: cover;
+    width: 70%;
+  }
+  .supercharge {
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .supercharge-para {
+    font-size: 0.9rem;
+  }
+  .breaklist {
+    margin-bottom: 15%;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    gap: 2rem;
+  }
+  .breaklist p {
+    font-size: 0.8rem;
+  }
+  .breaklist-1 {
+    width: 41%;
+  }
+  .company-icon {
+    margin-bottom: 12%;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    padding: 3rem 10% 3rem 10%;
+    position: relative;
+    display: flex;
+
+    gap: 7%;
+  }
+  .footer-insta {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+  .fl {
+    object-fit: cover;
+    width: 50%;
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 899px) {
+  .container {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-size: 100vw;
+  }
+  .logo-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .history {
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .history-h1 {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 600;
+  }
+  .history-p {
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 400;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 1rem;
+    margin-bottom: 7rem;
+  }
+  .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  }
+  .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .second-heading {
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-heading-heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .second-heading-para {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desktop {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    margin-bottom: 10%;
+  }
+
+  .d-img {
+    margin-bottom: 1rem;
+    object-fit: cover;
+    width: 100%;
+  }
+  .desktop-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+  }
+  .d {
+    margin: 0;
+
+    margin-bottom: 1.5rem;
+  }
+  .h3 {
+    margin-bottom: 0.4rem;
+  }
+
+  .quick {
+    margin-top: 1.5rem;
+  }
+  .main {
+    text-align: center;
+    margin-bottom: 6%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+  }
+  .main-h {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .device-img {
+    text-align: center;
+  }
+  .img-d {
+    object-fit: cover;
+    width: 90%;
+  }
+  .supercharge {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .breaklist {
+    margin-bottom: 7rem;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .breaklist- {
+    margin-bottom: 3rem;
+  }
+
+  .company-icon {
+    text-align: center;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    align-items: center;
+  }
+  .x {
+    width: 6.5rem;
+  }
+  footer {
+    padding: 3rem 10% 3rem 10%;
+    position: relative;
+    text-align: center;
+  }
+  .footer-insta {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    left: 36%;
+    bottom: 6%;
+  }
+
+  .fl {
+    object-fit: cover;
+    height: 4rem;
+  }
+}
